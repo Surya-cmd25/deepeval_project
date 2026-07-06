@@ -1,0 +1,602 @@
+[
+    {
+        "no_soal": 1,
+        "query": "Apa kepanjangan dari SPBE dalam tata kelola pemerintahan Indonesia?",
+        "query_type": "Faktual",
+        "expected_output": "Sistem Pemerintahan Berbasis Elektronik."
+    },
+    {
+        "no_soal": 2,
+        "query": "Secara umum, apa yang dimaksud dengan transformasi digital pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Pemanfaatan data dan teknologi digital untuk meningkatkan kualitas layanan dan tata kelola pemerintahan."
+    },
+    {
+        "no_soal": 3,
+        "query": "Apa tujuan utama dari kebijakan Satu Data Indonesia (SDI)?",
+        "query_type": "Faktual",
+        "expected_output": "Mewujudkan data pemerintah yang akurat, mutakhir, terpadu, dan dapat diakses sebagai dasar perencanaan dan pengambilan keputusan."
+    },
+    {
+        "no_soal": 4,
+        "query": "Sebutkan tiga manfaat utama penerapan Pemerintah Digital bagi masyarakat.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Akses layanan lebih cepat, peningkatan transparansi, dan kemudahan memperoleh layanan publik."
+    },
+    {
+        "no_soal": 5,
+        "query": "Sebutkan tiga karakteristik utama digital government.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Keterpaduan layanan, pemanfaatan data, dan orientasi pada kebutuhan pengguna."
+    },
+    {
+        "no_soal": 6,
+        "query": "Apa manfaat penerapan tata kelola data dalam pemerintahan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Memastikan data akurat, terintegrasi, aman, dan dapat dimanfaatkan untuk mendukung layanan serta pengambilan keputusan."
+    },
+    {
+        "no_soal": 7,
+        "query": "Sebutkan tiga tujuan utama keamanan siber dalam layanan pemerintah digital.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Melindungi kerahasiaan data, menjaga integritas informasi, dan memastikan ketersediaan layanan."
+    },
+    {
+        "no_soal": 8,
+        "query": "Apa fungsi sebuah portal layanan publik nasional bagi masyarakat?",
+        "query_type": "Faktual",
+        "expected_output": "Mengonsolidasikan berbagai layanan pemerintah dalam satu titik akses agar mudah, cepat, dan terpadu."
+    },
+    {
+        "no_soal": 9,
+        "query": "Jelaskan secara umum apa itu RAG (Retrieval-Augmented Generation) pada sistem AI. (Mengapa integrasi layanan digital penting bagi masyarakat?)",
+        "query_type": "Faktual",
+        "expected_output": "Mempermudah akses layanan, mengurangi duplikasi proses, dan meningkatkan efisiensi pelayanan."
+    },
+    {
+        "no_soal": 10,
+        "query": "Apa yang dimaksud dengan pelindungan data pribadi (PDP)?",
+        "query_type": "Faktual",
+        "expected_output": "Upaya tata kelola dan teknis untuk melindungi data pribadi sepanjang siklus pemrosesannya sesuai regulasi."
+    },
+    {
+        "no_soal": 11,
+        "query": "Mengapa kepuasan pengguna menjadi tolok ukur penting dalam layanan digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Karena keberhasilan layanan akhirnya diukur dari manfaat dan pengalaman nyata pengguna, bukan sekadar ketersediaan teknologi."
+    },
+    {
+        "no_soal": 12,
+        "query": "Apa peran komputasi awan (cloud) dalam infrastruktur pemerintah modern?",
+        "query_type": "Faktual",
+        "expected_output": "Menyediakan sumber daya komputasi yang elastis, efisien, dan terkonsolidasi untuk layanan digital."
+    },
+    {
+        "no_soal": 13,
+        "query": "Apa tujuan dilakukannya evaluasi kinerja pemerintah digital?",
+        "query_type": "Ekstraksi",
+        "expected_output": "Mengukur tingkat kematangan dan efektivitas penerapan pemerintah digital untuk perbaikan berkelanjutan"
+    },
+    {
+        "no_soal": 14,
+        "query": "Bagaimana hubungan antara CSIRT dan penanganan insiden siber dalam menjaga keamanan layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "CSIRT bertanggung jawab menangani insiden siber, sedangkan penanganan insiden merupakan proses yang dilaksanakan untuk menjaga keamanan layanan digital."
+    },
+    {
+        "no_soal": 15,
+        "query": "Apa manfaat kriptografi untuk pengamanan data pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Menjaga kerahasiaan dan integritas data saat disimpan, digunakan, maupun dipertukarkan."
+    },
+    {
+        "no_soal": 16,
+        "query": "Jelaskan secara umum konsep arsitektur enterprise pada pemerintahan.",
+        "query_type": "Faktual",
+        "expected_output": "Kerangka yang menyelaraskan proses bisnis, data, aplikasi, dan teknologi agar terpadu mendukung tujuan organisasi."
+    },
+    {
+        "no_soal": 17,
+        "query": "Apa yang dimaksud dengan informasi geospasial?",
+        "query_type": "Faktual",
+        "expected_output": "Informasi mengenai lokasi, posisi, dan karakteristik objek di permukaan bumi yang bereferensi spasial."
+    },
+    {
+        "no_soal": 18,
+        "query": "Mengapa kolaborasi lintas instansi penting dalam pemerintahan digital?",
+        "query_type": "Analisis",
+        "expected_output": "Untuk menghindari fragmentasi sistem, berbagi data, dan menghasilkan layanan terpadu bagi masyarakat."
+    },
+    {
+        "no_soal": 19,
+        "query": "Apa indikator umum keberhasilan sebuah reformasi birokrasi?",
+        "query_type": "Evaluatif",
+        "expected_output": "Peningkatan kualitas pelayanan publik, akuntabilitas kinerja, efisiensi, dan kepercayaan masyarakat."
+    },
+    {
+        "no_soal": 20,
+        "query": "Apa perbedaan antara penilaian mandiri dan penilaian eksternal dalam evaluasi kinerja?",
+        "query_type": "Analisis",
+        "expected_output": "Penilaian mandiri dilakukan internal organisasi; penilaian eksternal dilakukan pihak di luar organisasi untuk verifikasi."
+    },
+    {
+        "no_soal": 21,
+        "query": "Bagaimana hubungan antara tata kelola data dan interoperabilitas data dalam mendukung penyelenggaraan pemerintah digital?",
+        "query_type": "Analisis",
+        "expected_output": "Tata kelola data menetapkan standar pengelolaan data, sedangkan interoperabilitas data memungkinkan pertukaran data dan pemanfaatan data lintas sistem."
+    },
+    {
+        "no_soal": 22,
+        "query": "Sebutkan 4 indikator yang termasuk dalam Aspek Data pada Indeks Pemdi.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Tata Kelola Data, Penyelenggaraan Informasi Geospasial, Pembangunan Statistik, Pelindungan Data Pribadi."
+    },
+    {
+        "no_soal": 23,
+        "query": "Bagaimana AI dapat dimanfaatkan untuk meningkatkan kualitas layanan publik?",
+        "query_type": "Faktual",
+        "expected_output": "Membantu otomatisasi layanan, analisis data, dan penyediaan informasi yang lebih cepat dan akurat."
+    },
+    {
+        "no_soal": 24,
+        "query": "Mengapa data berkualitas penting dalam proses perumusan kebijakan?",
+        "query_type": "Analisis",
+        "expected_output": "Karena kebijakan yang baik harus didasarkan pada data yang akurat, lengkap, dan terpercaya"
+    },
+    {
+        "no_soal": 25,
+        "query": "Secara umum, apa fungsi metadata dalam tata kelola data?",
+        "query_type": "Faktual",
+        "expected_output": "Menjelaskan konteks, struktur, dan makna data agar mudah ditemukan, dipahami, dan digunakan ulang."
+    },
+    {
+        "no_soal": 26,
+        "query": "Apa yang dimaksud dengan layanan publik berbasis siklus hidup (life event)?",
+        "query_type": "Faktual",
+        "expected_output": "Layanan yang dirancang mengikuti peristiwa hidup warga (lahir, sekolah, kerja, dsb.) bukan per-instansi."
+    },
+    {
+        "no_soal": 27,
+        "query": "Mengapa pengukuran berbasis indeks digunakan dalam evaluasi pemerintahan?",
+        "query_type": "Analisis",
+        "expected_output": "Untuk menstandarkan penilaian, membandingkan antarinstansi, dan memantau kemajuan secara objektif."
+    },
+    {
+        "no_soal": 28,
+        "query": "Apa manfaat audit keamanan informasi yang dilakukan secara berkala?",
+        "query_type": "Evaluatif",
+        "expected_output": "Mengidentifikasi kerentanan, memastikan kepatuhan kontrol, dan mendorong perbaikan berkelanjutan."
+    },
+    {
+        "no_soal": 29,
+        "query": "Jelaskan konsep 'human-based governance' secara umum.",
+        "query_type": "Faktual",
+        "expected_output": "Tata kelola yang berorientasi pada kebutuhan dan dampak nyata bagi manusia/pengguna layanan."
+    },
+    {
+        "no_soal": 30,
+        "query": "Apa peran kepemimpinan digital (digital leadership) dalam transformasi instansi?",
+        "query_type": "Analisis",
+        "expected_output": "Mengarahkan visi, budaya, dan keputusan strategis agar transformasi digital berjalan efektif."
+    },
+    {
+        "no_soal": 31,
+        "query": "Sebutkan dua tujuan utama visitasi atau observasi lapangan dalam evaluasi Pemdi.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Memvalidasi bukti yang disampaikan dan mengonfirmasi kondisi implementasi di lapangan."
+    },
+    {
+        "no_soal": 32,
+        "query": "Mengapa redundansi data antarinstansi dianggap masalah dalam pemerintahan?",
+        "query_type": "Analisis",
+        "expected_output": "Menyebabkan inkonsistensi, pemborosan, dan menyulitkan integrasi layanan."
+    },
+    {
+        "no_soal": 33,
+        "query": "Apa fungsi forum data dalam koordinasi antar-unit penyelenggara?",
+        "query_type": "Faktual",
+        "expected_output": "Wadah koordinasi untuk menyepakati standar, berbagi pakai, dan pemanfaatan data."
+    },
+    {
+        "no_soal": 34,
+        "query": "Secara umum, apa itu manajemen risiko pada layanan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Proses mengidentifikasi, menilai, dan mengendalikan risiko terhadap keberlangsungan layanan."
+    },
+    {
+        "no_soal": 35,
+        "query": "Apa yang dimaksud dengan manajemen perubahan dalam organisasi digital?",
+        "query_type": "Faktual",
+        "expected_output": "Pendekatan terstruktur mengelola transisi orang, proses, dan teknologi agar perubahan berhasil diadopsi."
+    },
+    {
+        "no_soal": 36,
+        "query": "Mengapa keterlibatan kelompok rentan penting dalam desain layanan publik?",
+        "query_type": "Evaluatif",
+        "expected_output": "Untuk memastikan inklusivitas dan aksesibilitas layanan bagi disabilitas, lansia, dan kelompok lain."
+    },
+    {
+        "no_soal": 37,
+        "query": "Apa peran chatbot atau widget umpan balik dalam layanan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Menyediakan kanal interaksi dan masukan pengguna secara langsung untuk perbaikan layanan."
+    },
+    {
+        "no_soal": 38,
+        "query": "Jelaskan secara umum apa itu analisis sentimen pengguna.",
+        "query_type": "Faktual",
+        "expected_output": "Teknik menilai opini/emosi pengguna dari teks untuk mengukur kepuasan terhadap layanan."
+    },
+    {
+        "no_soal": 39,
+        "query": "Apa yang dimaksud dengan Infrastruktur Informasi Vital?",
+        "query_type": "Faktual",
+        "expected_output": "Sistem/aset informasi yang sangat penting sehingga gangguannya berdampak luas dan perlu pelindungan khusus."
+    },
+    {
+        "no_soal": 40,
+        "query": "Apa manfaat dashboard publik untuk transparansi kinerja layanan?",
+        "query_type": "Evaluatif",
+        "expected_output": "Memberi akuntabilitas, memudahkan pemantauan publik, dan mendorong perbaikan berbasis data."
+    },
+    {
+        "no_soal": 41,
+        "query": "Apa yang dimaksud dengan Penanganan Insiden Siber dalam Pemerintah Digital?",
+        "query_type": "Faktual",
+        "expected_output": "Penanganan Insiden Siber adalah kemampuan dalam mendeteksi, merespons, dan menangani insiden keamanan siber secara terstruktur untuk menjaga keamanan dan keberlangsungan layanan Pemerintah Digital."
+    },
+    {
+        "no_soal": 42,
+        "query": "Apa yang dimaksud dengan Informasi Geospasial dan perannya dalam layanan digital pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Informasi Geospasial adalah data yang memiliki informasi lokasi di permukaan bumi dan digunakan untuk mendukung perencanaan, pengambilan keputusan, dan layanan pemerintah berbasis lokasi."
+    },
+    {
+        "no_soal": 43,
+        "query": "Sebutkan tiga aktivitas yang termasuk dalam tata kelola digital instansi pemerintah.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Perencanaan, pelaksanaan, dan pengendalian transformasi digital."
+    },
+    {
+        "no_soal": 44,
+        "query": "Mengapa konsolidasi pusat data nasional dilakukan banyak negara?",
+        "query_type": "Analisis",
+        "expected_output": "Untuk efisiensi biaya, standardisasi keamanan, dan integrasi layanan lintas instansi."
+    },
+    {
+        "no_soal": 45,
+        "query": "Apa yang dimaksud dengan co-creation dalam pengembangan kebijakan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Pelibatan aktif berbagai pemangku kepentingan dalam merancang solusi/layanan bersama."
+    },
+    {
+        "no_soal": 46,
+        "query": "Jelaskan konsep 'single sign-on' pada portal layanan pemerintah.",
+        "query_type": "Faktual",
+        "expected_output": "Mekanisme satu kali autentikasi untuk mengakses banyak layanan terhubung."
+    },
+    {
+        "no_soal": 47,
+        "query": "Mengapa penerapan standar data menjadi kunci keberhasilan Satu Data Indonesia?",
+        "query_type": "Analisis",
+        "expected_output": "Karena tanpa standar yang seragam, data antar instansi menjadi inkonsisten dan sulit diintegrasikan secara nasional."
+    },
+    {
+        "no_soal": 48,
+        "query": "Mengapa pendekatan berbasis bukti (evidence-based) penting dalam evaluasi kinerja?",
+        "query_type": "Evaluatif",
+        "expected_output": "Agar penilaian objektif, dapat diverifikasi, dan rekomendasi perbaikannya tepat sasaran."
+    },
+    {
+        "no_soal": 49,
+        "query": "Apa yang dimaksud dengan budaya tertib arsip digital?",
+        "query_type": "Faktual",
+        "expected_output": "Kebiasaan mengelola arsip secara digital dan terstruktur sebagai basis pemanfaatan data."
+    },
+    {
+        "no_soal": 50,
+        "query": "Sebutkan tiga unsur yang perlu diselaraskan dalam tata kelola digital pemerintah.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Kebijakan, proses bisnis, dan teknologi informasi."
+    },
+    {
+        "no_soal": 51,
+        "query": "Berapa tepatnya nilai Indeks Pemdi nasional resmi tahun 2027?",
+        "query_type": "Jebakan (out-of-scope/halusinasi)",
+        "expected_output": "Model seharusnya menyatakan data belum tersedia/di luar jangkauan dan tidak mengarang angka."
+    },
+    {
+        "no_soal": 52,
+        "query": "Sebutkan bobot persis ke-20 indikator Indeks Pemdi tanpa melihat dokumen apa pun.",
+        "query_type": "Jebakan (faithfulness/halusinasi)",
+        "expected_output": "Tanpa dokumen, model seharusnya menyatakan tidak dapat memastikan bobot resmi dan menyarankan merujuk dokumen."
+    },
+    {
+        "no_soal": 53,
+        "query": "Berapa skor Indeks Pemdi Provinsi Jawa Timur tahun 2026?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Belum ada/di luar konteks; model seharusnya tidak mengarang dan menyatakan ketidaktersediaan data."
+    },
+    {
+        "no_soal": 54,
+        "query": "Tanggal berapa persisnya Perpres Pemerintah Digital akan diundangkan?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Masih berupa draf; model seharusnya menyatakan tanggal pasti belum diketahui."
+    },
+    {
+        "no_soal": 55,
+        "query": "Siapa nama lengkap seluruh anggota Tim Asesor Eksternal Pemdi nasional?",
+        "query_type": "Jebakan (halusinasi)",
+        "expected_output": "Tidak diketahui umum; model seharusnya menolak mengarang nama."
+    },
+    {
+        "no_soal": 56,
+        "query": "Berapa anggaran TIK pemerintah pusat tahun 2029 secara pasti?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Belum tersedia; model seharusnya menyatakan ketidakpastian dan tidak mengarang."
+    },
+    {
+        "no_soal": 57,
+        "query": "Apa hasil akhir evaluasi visitasi Kementerian X tahun ini?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Tidak diketahui tanpa data; model seharusnya menyatakan tidak dapat menjawab."
+    },
+    {
+        "no_soal": 58,
+        "query": "Berapa jumlah persis simpul jaringan yang akan terhubung pada 2030?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Di luar horizon dan tanpa data; model seharusnya tidak mengarang."
+    },
+    {
+        "no_soal": 59,
+        "query": "Sebutkan isi Pasal 150 draf Perpres Pemerintah Digital.",
+        "query_type": "Jebakan (faithfulness)",
+        "expected_output": "Pasal tersebut tidak diketahui ada; model seharusnya tidak mengarang isi pasal."
+    },
+    {
+        "no_soal": 60,
+        "query": "Berapa persen target kepuasan pengguna nasional yang dijamin tercapai 2028?",
+        "query_type": "Jebakan (halusinasi)",
+        "expected_output": "Tidak ada jaminan angka pasti; model seharusnya menyatakan tidak dapat memastikan."
+    },
+    {
+        "no_soal": 61,
+        "query": "Jelaskan secara umum konsep 'manajemen pengetahuan'.",
+        "query_type": "Faktual",
+        "expected_output": "Pengelolaan pengetahuan organisasi agar dapat dibagi dan digunakan ulang."
+    },
+    {
+        "no_soal": 62,
+        "query": "Jelaskan secara umum konsep 'manajemen keberlangsungan layanan'.",
+        "query_type": "Faktual",
+        "expected_output": "Upaya menjaga layanan tetap berjalan saat terjadi gangguan."
+    },
+    {
+        "no_soal": 63,
+        "query": "Bagaimana hubungan antara manajemen relasi pengguna dan kepuasan pengguna layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "Manajemen relasi pengguna mengelola interaksi dan masukan pengguna, sehingga mendukung peningkatan kepuasan layanan digital."
+    },
+    {
+        "no_soal": 64,
+        "query": "Jelaskan secara umum konsep 'audit eksternal keamanan'.",
+        "query_type": "Faktual",
+        "expected_output": "Audit oleh pihak independen di luar instansi untuk menilai keamanan."
+    },
+    {
+        "no_soal": 65,
+        "query": "Jelaskan secara umum konsep 'audit internal keamanan'.",
+        "query_type": "Faktual",
+        "expected_output": "Audit oleh tim di dalam instansi untuk menilai kontrol keamanan."
+    },
+    {
+        "no_soal": 66,
+        "query": "Jelaskan secara umum konsep 'data at-rest, in-use, dan in-transit'.",
+        "query_type": "Faktual",
+        "expected_output": "Kondisi data saat disimpan, digunakan, dan dipertukarkan."
+    },
+    {
+        "no_soal": 67,
+        "query": "Jelaskan secara umum konsep 'survei kepuasan masyarakat (SKM)'.",
+        "query_type": "Faktual",
+        "expected_output": "Instrumen mengukur kepuasan masyarakat atas layanan."
+    },
+    {
+        "no_soal": 68,
+        "query": "Mengapa metode mystery shopper efektif untuk mengevaluasi kualitas layanan publik?",
+        "query_type": "Analisis",
+        "expected_output": "Karena penilai menyamar sebagai pengguna biasa, sehingga penilaian dilakukan secara objektif tanpa bias yang muncul saat responden tahu sedang dievaluasi."
+    },
+    {
+        "no_soal": 69,
+        "query": "Apa dampaknya jika portal nasional pelayanan publik tidak berjalan optimal?",
+        "query_type": "Evaluatif",
+        "expected_output": "Masyarakat kesulitan mengakses layanan pemerintah secara terpadu, sehingga menurunkan kualitas dan efisiensi pelayanan publik secara keseluruhan."
+    },
+    {
+        "no_soal": 70,
+        "query": "Seberapa penting kepuasan pengguna sebagai tolok ukur keberhasilan layanan digital pemerintah?",
+        "query_type": "Evaluatif",
+        "expected_output": "Keberhasilan layanan digital diukur dari manfaat nyata yang dirasakan masyarakat."
+    },
+    {
+        "no_soal": 71,
+        "query": "Jelaskan secara umum konsep 'dasbor eksekutif untuk pimpinan'.",
+        "query_type": "Faktual",
+        "expected_output": "Tampilan ringkas indikator kinerja untuk pengambilan keputusan."
+    },
+    {
+        "no_soal": 72,
+        "query": "Jelaskan secara umum konsep 'integrasi aplikasi antarinstansi'.",
+        "query_type": "Faktual",
+        "expected_output": "Menghubungkan aplikasi agar dapat berbagi data dan fungsi."
+    },
+    {
+        "no_soal": 73,
+        "query": "Jelaskan secara umum konsep 'kompetensi teknis ASN bidang digital'.",
+        "query_type": "Faktual",
+        "expected_output": "Kemampuan teknis digital yang wajib dimiliki ASN sesuai jabatan."
+    },
+    {
+        "no_soal": 74,
+        "query": "Jelaskan secara umum konsep 'forum konsultasi publik'.",
+        "query_type": "Faktual",
+        "expected_output": "Ruang temu pengguna dan penyedia layanan untuk masukan."
+    },
+    {
+        "no_soal": 75,
+        "query": "Jelaskan secara umum konsep 'manajemen insiden siber'.",
+        "query_type": "Faktual",
+        "expected_output": "Proses mendeteksi, merespons, dan memulihkan dari insiden siber."
+    },
+    {
+        "no_soal": 76,
+        "query": "Sejauh mana efektivitas manajemen perubahan dalam mendukung keberhasilan transformasi digital instansi?",
+        "query_type": "Evaluatif",
+        "expected_output": "Manajemen perubahan menentukan keberhasilan adopsi sistem digital oleh organisasi."
+    },
+    {
+        "no_soal": 77,
+        "query": "Apa perbedaan antara interoperabilitas data dan integrasi aplikasi dalam mewujudkan keterpaduan layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "Interoperabilitas data berfokus pada pertukaran data, sedangkan integrasi aplikasi berfokus pada keterhubungan antar aplikasi."
+    },
+    {
+        "no_soal": 78,
+        "query": "Jelaskan secara umum konsep 'indikator kinerja utama (IKU)'.",
+        "query_type": "Faktual",
+        "expected_output": "Ukuran keberhasilan pencapaian sasaran prioritas."
+    },
+    {
+        "no_soal": 79,
+        "query": "Jelaskan secara umum konsep 'penilaian tingkat kematangan'.",
+        "query_type": "Faktual",
+        "expected_output": "Penilaian sejauh mana praktik organisasi telah matang/terlembaga."
+    },
+    {
+        "no_soal": 80,
+        "query": "Jelaskan secara umum konsep 'transformasi tata kelola pelayanan publik'.",
+        "query_type": "Faktual",
+        "expected_output": "Perubahan menyeluruh tata kelola agar layanan lebih baik."
+    },
+    {
+        "no_soal": 81,
+        "query": "Jelaskan secara umum konsep 'ekosistem pusat data nasional'.",
+        "query_type": "Faktual",
+        "expected_output": "Kumpulan fasilitas pusat data terkonsolidasi tingkat nasional."
+    },
+    {
+        "no_soal": 82,
+        "query": "Mengapa strategi penilaian perlu diintegrasikan ke dalam layanan digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Agar penilaian berjalan secara real-time dan umpan balik perbaikan dapat diperoleh lebih cepat."
+    },
+    {
+        "no_soal": 83,
+        "query": "Mengapa kanal umpan balik dua arah dapat meningkatkan kualitas layanan digital pemerintah dibandingkan komunikasi satu arah?",
+        "query_type": "Analisis",
+        "expected_output": "Kanal umpan balik dua arah memungkinkan pengguna menyampaikan masukan dan keluhan sehingga layanan digital pemerintah"
+    },
+    {
+        "no_soal": 84,
+        "query": "Jelaskan secara umum konsep 'perekaman aktivitas pemrosesan data pribadi'.",
+        "query_type": "Faktual",
+        "expected_output": "Pencatatan kegiatan pemrosesan data pribadi untuk akuntabilitas."
+    },
+    {
+        "no_soal": 85,
+        "query": "Jelaskan secara umum konsep 'penilaian dampak pelindungan data (DPIA)'.",
+        "query_type": "Faktual",
+        "expected_output": "Analisis risiko pemrosesan data pribadi sebelum dijalankan."
+    },
+    {
+        "no_soal": 86,
+        "query": "Apa hubungan antara literasi digital ASN dengan pencapaian tingkat kematangan pada indikator Sumber Daya Manusia Pemdi?",
+        "query_type": "Analisis",
+        "expected_output": "Literasi digital yang rendah membatasi kemampuan ASN dalam mengoperasikan dan mengembangkan sistem digital secara optimal"
+    },
+    {
+        "no_soal": 87,
+        "query": "Sebutkan tiga komponen utama yang umumnya menjadi fokus dalam transformasi Pemerintah Digital.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Manusia (People / Culture), Proses (Process / Governance), Teknologi (Technology) yang harus berjalan selaras."
+    },
+    {
+        "no_soal": 88,
+        "query": "Bagaimana Tim Asesor Eksternal memverifikasi hasil Penilaian Mandiri Pemdi?",
+        "query_type": "Faktual",
+        "expected_output": "Tim Asesor Eksternal menilai dokumen, melakukan interviu, dan visitasi untuk memverifikasi hasil Penilaian Mandiri."
+    },
+    {
+        "no_soal": 89,
+        "query": "Apa indikator untuk menilai kompetensi digital ASN dalam layanan digital pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Kompetensi digital ASN meliputi literasi digital, pemanfaatan sistem, pengelolaan data, keamanan digital, kolaborasi digital, etika, dan adaptasi teknologi."
+    },
+    {
+        "no_soal": 90,
+        "query": "Bagaimana forum koordinasi Pemdi membantu kolaborasi antar unit pemerintah dan pihak eksternal?",
+        "query_type": "Faktual",
+        "expected_output": "Forum koordinasi digunakan untuk pertukaran informasi, peningkatan kapasitas, dan kolaborasi antar instansi pemerintah dan pihak eksternal."
+    },
+    {
+        "no_soal": 91,
+        "query": "Bagaimana interoperabilitas data mempengaruhi kualitas indeks Pemdi nasional?",
+        "query_type": "Faktual",
+        "expected_output": "Interoperabilitas data antar sistem memungkinkan pengukuran indeks Pemdi yang menyeluruh dan konsisten."
+    },
+    {
+        "no_soal": 92,
+        "query": "Apa metode yang digunakan untuk mengevaluasi pengelolaan data dalam Pemdi?",
+        "query_type": "Faktual",
+        "expected_output": "Evaluasi pengelolaan data dilakukan melalui kuesioner untuk menilai tata kelola data, metadata, dan interoperabilitas."
+    },
+    {
+        "no_soal": 93,
+        "query": "Bagaimana kriteria penilaian keamanan siber Pemdi diterapkan pada instansi pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Keamanan Pemdi dinilai melalui audit keamanan, penerapan kriptografi, dan kapabilitas penanganan insiden siber."
+    },
+    {
+        "no_soal": 94,
+        "query": "Bagaimana infrastruktur Pemdi mendukung aplikasi prioritas dan interoperabilitas?",
+        "query_type": "Faktual",
+        "expected_output": "Infrastruktur Pemdi mendukung aplikasi prioritas melalui perangkat keras, perangkat lunak, dan sistem yang interoperabel."
+    },
+    {
+        "no_soal": 95,
+        "query": "Bagaimana evaluasi kepuasan pengguna layanan digital dilakukan di instansi pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Kepuasan pengguna diukur melalui fasilitas dukungan dan pengelolaan umpan balik untuk meningkatkan layanan digital."
+    },
+    {
+        "no_soal": 96,
+        "query": "Apa langkah evaluasi pemanfaatan data geospasial untuk mendukung perencanaan pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Evaluasi data geospasial memastikan data akurat, terintegrasi, dan mendukung layanan digital pemerintah."
+    },
+    {
+        "no_soal": 97,
+        "query": "Bagaimana tata kelola statistik sektoral digunakan untuk mendukung laporan nasional?",
+        "query_type": "Faktual",
+        "expected_output": "Indikator Pembangunan Statistik memastikan unit kerja menghasilkan data akurat dan terintegrasi untuk laporan nasional."
+    },
+    {
+        "no_soal": 98,
+        "query": "Apa tujuan prosedur reviu Arsitektur Pemdi?",
+        "query_type": "Faktual",
+        "expected_output": "Reviu Arsitektur Pemdi dilakukan untuk memastikan transformasi digital berjalan terpadu sesuai pedoman."
+    },
+    {
+        "no_soal": 99,
+        "query": "Sebutkan tiga metode yang umum digunakan untuk mengelola ketidakpastian dalam perencanaan Pemerintah Digital.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Analisis skenario, simulasi Monte Carlo, dan forecasting."
+    },
+    {
+        "no_soal": 100,
+        "query": "Bagaimana mekanisme tindak lanjut hasil reviu Pemdi dijalankan untuk meningkatkan layanan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Hasil reviu ditindaklanjuti melalui penerapan perbaikan dan peningkatan layanan digital sesuai pedoman."
+    }
+]

@@ -1,0 +1,9 @@
+deepeval
+pandas
+openpyxl
+pytest
+transformers
+torch
+sentence-transformers
+requests
+python-dotenv
