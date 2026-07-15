@@ -6,8 +6,8 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
 # Konfigurasi lokasi input dan output file
-INPUT_FILENAME = "hasil_evaluasi_1/hasil_run_3.json"
-OUTPUT_EXCEL = "hasil_evaluasi_1/rekap_evaluasi_run_3.xlsx"
+INPUT_FILENAME = "hasil_evaluasi_1/hasil_run_5.json"
+OUTPUT_EXCEL = "hasil_evaluasi_1/rekap_evaluasi_run_5.xlsx"
 
 def generate_excel_report():
     if not os.path.exists(INPUT_FILENAME):

@@ -1,9 +1,9 @@
-# test_scenario_1.py
+# test_scenario_2.py
 import pytest
 import time
 import json
 import os
-import random
+from pypdf import PdfReader
 from deepeval import assert_test
 from deepeval.test_case import LLMTestCase
 from openrouter_provider import OpenRouterLLM
@@ -12,46 +12,51 @@ from eval_config import MultilingualE5Embedding, SemanticSimilarityMetric
 from dotenv import load_dotenv
 load_dotenv(override=True)
 
-JSON_DATASET_PATH = "dataset/dataset_maja_ai.json"
+# 📌 Dataset utama (100 soal)
+JSON_DATASET_PATH = "dataset/dataset_maja_ai_2.json"
 
-# 📁 Folder dan path output khusus
-OUTPUT_FOLDER = "hasil_evaluasi_1"
-OUTPUT_FILENAME = os.path.join(OUTPUT_FOLDER, "hasil_evaluasi_skenario_1.json")
+# 📄 Dokumen PDF Acuan Input
+PDF_DOCUMENT_PATH = "dataset/dokumen_pdf/2026permenpanrb008.pdf"
 
-# Karena Anda ingin memulai dari awal (fresh run 100 soal), 
-# kita set batas batch ke 100 agar semua soal diproses tanpa terkunci limit.
-SOAL_PER_BATCH = 20
+# 📁 Folder dan path output khusus untuk Skenario 2
+OUTPUT_FOLDER = "hasil_evaluasi_2"
+OUTPUT_FILENAME = os.path.join(OUTPUT_FOLDER, "hasil_evaluasi_skenario_2.json")
 
-# Memastikan folder output sudah terbentuk sejak awal program dimuat
+# Batasan batch (set ke 100 jika ingin memproses penuh sekaligus)
+SOAL_PER_BATCH = 20  
+
+# Membuat folder output otomatis jika belum ada
 if not os.path.exists(OUTPUT_FOLDER):
     os.makedirs(OUTPUT_FOLDER)
     print(f"📁 Folder '{OUTPUT_FOLDER}' berhasil dibuat otomatis.")
 
-# 💡 PERUBAHAN: Fungsi pembacaan ketat untuk mendeteksi error pada file dataset
 def load_dataset_from_json():
     if not os.path.exists(JSON_DATASET_PATH):
-        raise FileNotFoundError(
-            f"\n❌ ERROR KRITIS: File dataset '{JSON_DATASET_PATH}' TIDAK DITEMUKAN!\n"
-            f"💡 Solusi: Pastikan folder 'dataset' ada dan di dalamnya terdapat file 'dataset_maja_ai.json'."
-        )
+        raise FileNotFoundError(f"❌ ERROR KRITIS: File dataset '{JSON_DATASET_PATH}' tidak ditemukan!")
+    with open(JSON_DATASET_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+# Fungsi untuk mengekstrak teks dari file PDF secara langsung
+def extract_text_from_pdf(pdf_path):
+    if not os.path.exists(pdf_path):
+        print(f"⚠️ WARNING: File PDF '{pdf_path}' tidak ditemukan!")
+        return "Dokumen acuan PDF tidak tersedia di sistem."
     
     try:
-        with open(JSON_DATASET_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            if not data:
-                raise ValueError("❌ ERROR KRITIS: File dataset ditemukan, tetapi isi di dalamnya KOSONG/KORUP!")
-            return data
-    except json.JSONDecodeError as e:
-        raise json.JSONDecodeError(
-            msg=f"\n❌ ERROR KRITIS: Format struktur tulisan JSON di '{JSON_DATASET_PATH}' RUSAK/SALAH KETIK!\n"
-                f"Detail Error: {e.msg} pada baris {e.lineno}, kolom {e.colno}.\n"
-                f"💡 Solusi: Periksa kembali tanda koma, tanda petik, atau kurung siku di file dataset Anda.",
-            doc=e.doc,
-            pos=e.pos
-        )
+        reader = PdfReader(pdf_path)
+        full_text = []
+        for page in reader.pages:
+            text = page.extract_text()
+            if text:
+                full_text.append(text)
+        return "\n".join(full_text)
+    except Exception as e:
+        print(f"❌ Gagal membaca PDF: {str(e)}")
+        return "Gagal melakukan ekstraksi teks dari dokumen PDF."
 
-# Memuat dataset secara ketat
+# Load dataset & ekstraksi teks dokumen acuan PDF
 dataset_test = load_dataset_from_json()
+dokumen_acuan_teks = extract_text_from_pdf(PDF_DOCUMENT_PATH)
 
 def get_completed_queries():
     if os.path.exists(OUTPUT_FILENAME):
@@ -69,10 +74,10 @@ def get_completed_queries():
             return []
     return []
 
+# Menggunakan provider LLM kustom & embedding
 target_llm = OpenRouterLLM()  
 embedding_e5 = MultilingualE5Embedding()
 
-# Threshold dikunci ke 0.85
 semantic_metric = SemanticSimilarityMetric(
     threshold=0.85,
     model=embedding_e5
@@ -82,7 +87,7 @@ processed_counter = 0
 
 def simpan_ke_json(data_baru):
     output_data = {
-        "nama_pengujian": "Skenario 1 - Baseline LLM",
+        "nama_pengujian": "Skenario 2 - LLM + Dokumen Input",
         "terakhir_diperbarui": time.strftime("%Y-%m-%d %H:%M:%S"),
         "detail_perbandingan": []
     }
@@ -101,7 +106,6 @@ def simpan_ke_json(data_baru):
     ]
     
     output_data["detail_perbandingan"].append(data_baru)
-    
     output_data["detail_perbandingan"] = sorted(
         output_data["detail_perbandingan"], 
         key=lambda x: x.get("no_soal", 0)
@@ -119,7 +123,7 @@ def simpan_ke_json(data_baru):
 
 # --- PROSES PENGUJIAN UTAMA ---
 @pytest.mark.parametrize("index", list(range(len(dataset_test))))
-def test_scenario_1_baseline(index):
+def test_scenario_2_document_analysis(index):
     global processed_counter
     
     data_item = dataset_test[index]
@@ -137,13 +141,21 @@ def test_scenario_1_baseline(index):
         pytest.skip(f"Soal No. {no_soal} ditunda karena limit batch ({SOAL_PER_BATCH} soal) sesi ini sudah penuh.")
         
     processed_counter += 1
-    print(f"\n🚀 [Excel No. {no_soal}][Tipe: {query_type}] Memproses gemma-4 (Progres ke-{processed_counter} dari batch ini)...")
+    print(f"\n🚀 [Skenario 2][No. {no_soal}][Tipe: {query_type}] Menganalisis Dokumen PDF (Progres ke-{processed_counter})...")
     
+    # 💡 SISTEM PROMPT: Menggabungkan Query + Dokumen PDF Input secara langsung
     system_prompt = (
-        "Anda adalah asisten AI yang ahli, kompeten, dan andal dalam bidang Sistem Pemerintahan Berbasis Elektronik (SPBE) "
-        "di Indonesia. Tugas Anda adalah menjawab pertanyaan user seputar tata kelola SPBE secara akurat, berbasis regulasi, "
-        "namun disajikan dengan SINGKAT, PADAT, dan JELAS langsung ke inti jawaban tanpa basa-basi.\n\n"
-        f"Pertanyaan: {query}"
+        "Anda adalah pakar senior Sistem Pemerintahan Berbasis Elektronik (SPBE) Kementerian PANRB.\n"
+        "Tugas Anda adalah menjawab pertanyaan pengguna secara akurat dan objektif HANYA berdasarkan dokumen acuan resmi di bawah ini.\n\n"
+        "--- AWAL DOKUMEN ACUAN (PERMENPANRB 8/2026) ---\n"
+        f"{dokumen_acuan_teks}\n"
+        "--- AKHIR DOKUMEN ACUAN ---\n\n"
+        "⚠️ ATURAN ANALISIS SECARA KETAT:\n"
+        "1. Jawablah secara SINGKAT, PADAT, dan LANGSUNG ke pokok masalah sesuai fakta yang ada di dokumen acuan. Maksimal jawaban terdiri dari 3 kalimat pendek.\n"
+        "2. Jangan memberikan intro/pembuka (seperti 'Baik, berdasarkan dokumen...') atau penutup.\n"
+        "3. Jika informasi yang ditanyakan tidak tercantum di dalam dokumen acuan tersebut, jawab dengan: "
+        "'Maaf, informasi tersebut tidak diatur atau tidak tersedia dalam dokumen acuan.' (Jangan berspekulasi atau mengarang jawaban!)\n\n"
+        f"Pertanyaan Analisis: {query}"
     )
     
     start_time = time.time()
@@ -155,7 +167,7 @@ def test_scenario_1_baseline(index):
     
     if is_system_error:
         processed_counter = SOAL_PER_BATCH
-        pytest.skip(f"Soal No. {no_soal} ditangguhkan karena sistem OpenRouter mendeteksi Rate Limit pada Gemma.")
+        pytest.skip(f"Soal No. {no_soal} ditangguhkan karena sistem OpenRouter mendeteksi Rate Limit.")
         
     test_case = LLMTestCase(
         input=query,
@@ -180,7 +192,7 @@ def test_scenario_1_baseline(index):
     
     record_hasil = {
         "no_soal": no_soal,
-        "llm_model": "google/gemma-4-26b-a4b-it:free",
+        "llm_model": target_llm.model_name,
         "query": query,
         "query_type": query_type, 
         "expected_output": expected_output,

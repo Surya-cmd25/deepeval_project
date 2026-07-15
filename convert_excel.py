@@ -3,8 +3,8 @@ import pandas as pd
 import json
 import os
 
-EXCEL_PATH = "dataset/dataset_maja_ai.xlsx"
-JSON_OUTPUT_PATH = "dataset/dataset_maja_ai.json"
+EXCEL_PATH = "dataset/dataset_maja_ai_3.xlsx"
+JSON_OUTPUT_PATH = "dataset/dataset_maja_ai_3.json"
 
 def convert():
     if not os.path.exists(EXCEL_PATH):

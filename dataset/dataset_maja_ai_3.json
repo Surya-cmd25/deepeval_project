@@ -1,0 +1,602 @@
+[
+    {
+        "no_soal": 1,
+        "query": "Berapa jumlah aspek yang digunakan dalam Evaluasi Kinerja Pemerintah Digital?",
+        "query_type": "faktual",
+        "expected_output": "7 aspek."
+    },
+    {
+        "no_soal": 2,
+        "query": "Berapa jumlah indikator dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "20 indikator."
+    },
+    {
+        "no_soal": 3,
+        "query": "Berapa rentang nilai tingkat kematangan kategori Memuaskan (Unggul/Leading)?",
+        "query_type": "faktual",
+        "expected_output": ">4,00 s.d. 5,00."
+    },
+    {
+        "no_soal": 4,
+        "query": "Berapa rentang nilai tingkat kematangan kategori Kurang (Merintis/Initiate)?",
+        "query_type": "faktual",
+        "expected_output": "1,00 s.d. <1,50."
+    },
+    {
+        "no_soal": 5,
+        "query": "Berapa bobot indikator Interoperabilitas Data?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 6,
+        "query": "Berapa bobot indikator Portal Layanan Digital Pemerintah?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 7,
+        "query": "Berapa bobot indikator Fasilitas Dukungan Pengguna Layanan Digital Pemerintah?",
+        "query_type": "faktual",
+        "expected_output": "10%."
+    },
+    {
+        "no_soal": 8,
+        "query": "Sebutkan 7 aspek dalam Evaluasi Kinerja Pemerintah Digital.",
+        "query_type": "ekstraksi",
+        "expected_output": "Tata Kelola; Manajemen; Keamanan; Layanan; Data; Integrasi Ekosistem; Kepuasan Pengguna Layanan Digital Pemerintah."
+    },
+    {
+        "no_soal": 9,
+        "query": "Sebutkan 5 tingkat kematangan yang digunakan dalam Evaluasi Kinerja Pemdi.",
+        "query_type": "ekstraksi",
+        "expected_output": "Kurang (Merintis/Initiate); Cukup (Membangun/Emerging); Baik (Berkembang/Developing); Sangat Baik (Melembaga/Embedded); Memuaskan (Unggul/Leading)."
+    },
+    {
+        "no_soal": 10,
+        "query": "Instansi pembina indikator Penyelenggaraan Informasi Geospasial adalah siapa?",
+        "query_type": "faktual",
+        "expected_output": "Badan Informasi Geospasial (BIG)."
+    },
+    {
+        "no_soal": 11,
+        "query": "Instansi pembina indikator Penerapan Kriptografi untuk Keamanan Data adalah siapa?",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 12,
+        "query": "Peraturan Menteri Nomor berapa yang dicabut oleh PermenPANRB No. 8 Tahun 2026?",
+        "query_type": "faktual",
+        "expected_output": "PermenPANRB Nomor 59 Tahun 2020."
+    },
+    {
+        "no_soal": 13,
+        "query": "Kapan PermenPANRB No. 8 Tahun 2026 diundangkan?",
+        "query_type": "faktual",
+        "expected_output": "5 Juni 2026."
+    },
+    {
+        "no_soal": 14,
+        "query": "Sebutkan fungsi yang berperan pada indikator Penyelenggaraan Informasi Geospasial.",
+        "query_type": "ekstraksi",
+        "expected_output": "Fungsi Perencanaan; TIK; Statistik; Pengelola Layanan Digital."
+    },
+    {
+        "no_soal": 15,
+        "query": "Siapa menteri yang menetapkan PermenPANRB No. 8 Tahun 2026?",
+        "query_type": "faktual",
+        "expected_output": "Rini Widyantini."
+    },
+    {
+        "no_soal": 16,
+        "query": "Sebutkan tiga tujuan Evaluasi Kinerja Pemdi.",
+        "query_type": "ekstraksi",
+        "expected_output": "Mengukur kemajuan; meningkatkan kualitas Pemdi; menghasilkan Indeks Pemdi sebagai tolok ukur nasional."
+    },
+    {
+        "no_soal": 17,
+        "query": "Indeks Pemdi diukur melalui instrumen apa?",
+        "query_type": "faktual",
+        "expected_output": "Kuesioner."
+    },
+    {
+        "no_soal": 18,
+        "query": "Sebutkan pihak yang dapat menjadi sumber indeks hasil evaluasi yang dimanfaatkan dalam Indeks Pemdi.",
+        "query_type": "ekstraksi",
+        "expected_output": "Instansi Pusat lain melalui interoperabilitas data antar sistem."
+    },
+    {
+        "no_soal": 19,
+        "query": "Berapa bobot indikator Tingkat Kematangan Penyelenggaraan Informasi Geospasial?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 20,
+        "query": "Sebutkan kriteria tingkat kematangan Sangat Baik pada indikator Portal Layanan Digital Pemerintah.",
+        "query_type": "ekstraksi",
+        "expected_output": "Diterapkan pada seluruh layanan prioritas/tematik; terkelola terpadu dan direviu berkala; terintegrasi dengan Dasbor Presiden."
+    },
+    {
+        "no_soal": 21,
+        "query": "Berapa bobot indikator Tingkat Kematangan Penerapan Kriptografi untuk Keamanan Data?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 22,
+        "query": "Sebutkan isi Pasal 11 mengenai ketentuan peralihan.",
+        "query_type": "ekstraksi",
+        "expected_output": "Penyesuaian target indeks SPBE menjadi Indeks Pemdi; jika belum disesuaikan maka terminologi SPBE dianggap sebagai Pemdi."
+    },
+    {
+        "no_soal": 23,
+        "query": "Berapa jumlah indikator pada Aspek Kepuasan Pengguna Layanan Digital Pemerintah?",
+        "query_type": "faktual",
+        "expected_output": "2 indikator."
+    },
+    {
+        "no_soal": 24,
+        "query": "Siapa Ketua Tim Asesor Nasional Evaluasi Kinerja Pemdi 2026?",
+        "query_type": "jebakan (halusinasi)",
+        "expected_output": "Tidak disebutkan dalam PermenPANRB No. 8 Tahun 2026."
+    },
+    {
+        "no_soal": 25,
+        "query": "Berapa jumlah instansi yang telah mencapai kategori Memuaskan pada tahun 2025?",
+        "query_type": "jebakan (halusinasi)",
+        "expected_output": "Tidak terdapat data capaian instansi tahun 2025 dalam dokumen."
+    },
+    {
+        "no_soal": 26,
+        "query": "Provinsi mana yang memperoleh nilai Pemdi tertinggi berdasarkan PermenPANRB No. 8 Tahun 2026?",
+        "query_type": "jebakan (halusinasi)",
+        "expected_output": "Dokumen tidak memuat peringkat atau hasil evaluasi provinsi."
+    },
+    {
+        "no_soal": 27,
+        "query": "Berapa target resmi nilai Indeks Pemdi Nasional tahun 2030 yang ditetapkan dalam PermenPANRB No. 8 Tahun 2026?",
+        "query_type": "jebakan (penanganan konflik)",
+        "expected_output": "PermenPANRB No. 8 Tahun 2026 tidak menetapkan target nilai Indeks Pemdi Nasional tahun 2030. Informasi tersebut tidak diatur dalam dokumen."
+    },
+    {
+        "no_soal": 28,
+        "query": "Siapa nama Ketua Tim Asesor Eksternal Nasional yang ditunjuk dalam PermenPANRB No. 8 Tahun 2026?",
+        "query_type": "jebakan (penanganan konflik)",
+        "expected_output": "Dokumen hanya menjelaskan komposisi Tim Asesor Eksternal, tetapi tidak menyebut nama ketua atau anggotanya."
+    },
+    {
+        "no_soal": 29,
+        "query": "Berapa jumlah instansi pemerintah yang telah mencapai predikat Memuaskan pada Evaluasi Kinerja Pemdi tahun 2026?",
+        "query_type": "jebakan (penanganan konflik)",
+        "expected_output": "Dokumen tidak memuat hasil evaluasi atau jumlah instansi yang memperoleh predikat tertentu."
+    },
+    {
+        "no_soal": 30,
+        "query": "Kota mana yang ditetapkan sebagai lokasi pelaksanaan Penilaian Visitasi pertama tahun 2026?",
+        "query_type": "jebakan (penanganan konflik)",
+        "expected_output": "PermenPANRB No. 8 Tahun 2026 tidak mencantumkan lokasi atau kota pelaksanaan visitasi."
+    },
+    {
+        "no_soal": 31,
+        "query": "Berapa honorarium yang diterima setiap anggota Tim Asesor Eksternal dalam Evaluasi Kinerja Pemdi?",
+        "query_type": "jebakan (penanganan konflik)",
+        "expected_output": "Dokumen tidak mengatur honorarium atau besaran biaya bagi asesor eksternal."
+    },
+    {
+        "no_soal": 32,
+        "query": "Apa nama aplikasi nasional yang wajib digunakan seluruh instansi untuk mengisi Kuesioner Evaluasi Kinerja Pemdi?",
+        "query_type": "jebakan (penanganan konflik)",
+        "expected_output": "PermenPANRB No. 8 Tahun 2026 tidak menyebutkan nama aplikasi tertentu untuk pengisian kuesioner evaluasi."
+    },
+    {
+        "no_soal": 33,
+        "query": "Siapa instansi pemerintah dengan nilai Indeks Pemdi tertinggi yang disebutkan dalam PermenPANRB No. 8 Tahun 2026?",
+        "query_type": "jebakan (penanganan konflik)",
+        "expected_output": "Dokumen tidak memuat peringkat atau nilai instansi."
+    },
+    {
+        "no_soal": 34,
+        "query": "Cari pembina indikator Pelindungan Data Pribadi di basis pengetahuan.",
+        "query_type": "ekstraksi",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 35,
+        "query": "Sebutkan dasar hukum yang disebutkan dalam bagian Menimbang huruf a sampai d secara ringkas.",
+        "query_type": "ekstraksi",
+        "expected_output": "Kebutuhan layanan publik digital; perubahan RPJMN; PermenPANRB 59/2020 tidak lagi sesuai; perlunya penetapan peraturan baru."
+    },
+    {
+        "no_soal": 36,
+        "query": "Cari: apa luaran resmi dari Evaluasi Kinerja Pemdi?",
+        "query_type": "ekstraksi",
+        "expected_output": "Indeks Pemdi (tolok ukur resmi keberhasilan)."
+    },
+    {
+        "no_soal": 37,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Tata Kelola Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "5%."
+    },
+    {
+        "no_soal": 38,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Manajemen Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "5%."
+    },
+    {
+        "no_soal": 39,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Sumber Daya Manusia Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "5%."
+    },
+    {
+        "no_soal": 40,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Kolaborasi Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "5%."
+    },
+    {
+        "no_soal": 41,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Tata Kelola Data'?",
+        "query_type": "faktual",
+        "expected_output": "5%."
+    },
+    {
+        "no_soal": 42,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Penyelenggaraan Informasi Geospasial'?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 43,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Pembangunan Statistik'?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 44,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Pelindungan Data Pribadi'?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 45,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Pelaksanaan Audit Keamanan Pemdi dan Teknologi Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 46,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Keamanan Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 47,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Penerapan Kriptografi untuk Keamanan Data'?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 48,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Kapabilitas Penanganan Insiden Siber'?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 49,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Aplikasi Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "5%."
+    },
+    {
+        "no_soal": 50,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Kematangan Infrastruktur Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "5%."
+    },
+    {
+        "no_soal": 51,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Keterpaduan Proses Bisnis Pemdi Lintas Unit dan Instansi'?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 52,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Integrasi Aplikasi'?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 53,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Portal Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 54,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Interoperabilitas Data'?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 55,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Fasilitas Dukungan Pengguna Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "10%."
+    },
+    {
+        "no_soal": 56,
+        "query": "Cari di knowledge base: berapa bobot indikator 'Tingkat Pengelolaan Kepuasan Pengguna Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "15%."
+    },
+    {
+        "no_soal": 57,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Tata Kelola Pemdi' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Tata Kelola dan Manajemen."
+    },
+    {
+        "no_soal": 58,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Manajemen Layanan Digital Pemerintah' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Tata Kelola dan Manajemen."
+    },
+    {
+        "no_soal": 59,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Sumber Daya Manusia Pemdi' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Penyelenggara."
+    },
+    {
+        "no_soal": 60,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Kolaborasi Pemdi' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Penyelenggara."
+    },
+    {
+        "no_soal": 61,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Tata Kelola Data' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Data."
+    },
+    {
+        "no_soal": 62,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Penyelenggaraan Informasi Geospasial' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Data."
+    },
+    {
+        "no_soal": 63,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Pembangunan Statistik' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Data."
+    },
+    {
+        "no_soal": 64,
+        "query": "Retrieve dari dokumen: indikator 'Tingkat Kematangan Pelindungan Data Pribadi' berada pada aspek apa?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Data."
+    },
+    {
+        "no_soal": 65,
+        "query": "Mengapa hasil Penilaian Mandiri perlu diverifikasi melalui Penilaian Dokumen oleh Tim Asesor Eksternal?",
+        "query_type": "analisis",
+        "expected_output": "Untuk memverifikasi dan memastikan hasil Penilaian Mandiri sesuai dengan bukti yang tersedia sehingga evaluasi lebih objektif dan akuntabel."
+    },
+    {
+        "no_soal": 66,
+        "query": "Mengapa interoperabilitas data diperlukan dalam pemanfaatan indeks hasil evaluasi dari instansi pusat lain?",
+        "query_type": "analisis",
+        "expected_output": "Karena memungkinkan pertukaran dan pemanfaatan data antarsistem sehingga nilai Indeks Pemdi dapat dihitung secara menyeluruh dan terintegrasi."
+    },
+    {
+        "no_soal": 67,
+        "query": "Bagaimana perubahan terminologi dari SPBE menjadi Pemdi dapat memengaruhi arah evaluasi pemerintah digital?",
+        "query_type": "analisis",
+        "expected_output": "Fokus bergeser dari sistem elektronik ke transformasi pemerintahan yang menekankan keterpaduan layanan, data, dan dampak bagi pengguna."
+    },
+    {
+        "no_soal": 68,
+        "query": "Mengapa Aspek Kepuasan Pengguna Layanan Digital Pemerintah memperoleh bobot paling besar dibanding aspek lainnya?",
+        "query_type": "analisis",
+        "expected_output": "Karena keberhasilan Pemerintah Digital pada akhirnya diukur dari kualitas layanan dan manfaat yang dirasakan pengguna."
+    },
+    {
+        "no_soal": 69,
+        "query": "Bagaimana hubungan antara Tingkat Kematangan Infrastruktur Pemdi dan Tingkat Kematangan Aplikasi Pemdi dalam mendukung layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "Infrastruktur menjadi fondasi teknologi, sedangkan aplikasi menyediakan layanan digital. Keduanya saling mendukung."
+    },
+    {
+        "no_soal": 70,
+        "query": "Mengapa Tingkat Kematangan Infrastruktur Pemdi dan Tingkat Kematangan Aplikasi Pemdi sama-sama dinilai dalam Aspek Teknologi Pemdi?",
+        "query_type": "Analisis",
+        "expected_output": "Karena keduanya saling melengkapi dalam mengukur kesiapan teknologi Pemdi."
+    },
+    {
+        "no_soal": 71,
+        "query": "Bagaimana hubungan antara Integrasi Aplikasi dan Keterpaduan Proses Bisnis Pemdi Lintas Unit dan Instansi?",
+        "query_type": "Analisis",
+        "expected_output": "Integrasi aplikasi menjadi sarana untuk mendukung keterpaduan proses bisnis lintas unit dan instansi."
+    },
+    {
+        "no_soal": 72,
+        "query": "Apa perbedaan fungsi Integrasi Aplikasi dan Portal Layanan Digital Pemerintah dalam mendukung layanan digital terpadu?",
+        "query_type": "Analisis",
+        "expected_output": "Integrasi berfokus pada keterhubungan sistem, sedangkan portal berfokus pada akses layanan terpadu."
+    },
+    {
+        "no_soal": 73,
+        "query": "Bagaimana hubungan antara Interoperabilitas Data dan Portal Layanan Digital Pemerintah dalam mendukung layanan digital terpadu?",
+        "query_type": "Analisis",
+        "expected_output": "Interoperabilitas data memungkinkan portal memanfaatkan data dari berbagai sistem secara terpadu."
+    },
+    {
+        "no_soal": 74,
+        "query": "Apa hubungan antara Integrasi Aplikasi dan Interoperabilitas Data dalam mewujudkan layanan digital terpadu?",
+        "query_type": "Analisis",
+        "expected_output": "Keduanya mendukung keterpaduan layanan melalui keterhubungan sistem dan data."
+    },
+    {
+        "no_soal": 75,
+        "query": "Apa perbedaan tujuan Fasilitas Dukungan Pengguna dan Pengelolaan Kepuasan Pengguna dalam layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "Fasilitas dukungan bersifat operasional, sedangkan pengelolaan kepuasan bersifat evaluatif."
+    },
+    {
+        "no_soal": 76,
+        "query": "Bagaimana Fasilitas Dukungan Pengguna dapat memengaruhi Pengelolaan Kepuasan Pengguna?",
+        "query_type": "Analisis",
+        "expected_output": "Dukungan yang responsif membantu penyelesaian kendala layanan sehingga meningkatkan kepuasan pengguna."
+    },
+    {
+        "no_soal": 77,
+        "query": "Bagaimana hubungan antara indikator Tingkat Kematangan Tata Kelola Pemdi dan keterlibatan beberapa instansi pembina?",
+        "query_type": "Analisis",
+        "expected_output": "Keterlibatan beberapa instansi pembina mendukung pelaksanaan Tata Kelola Pemdi sesuai bidang kewenangannya."
+    },
+    {
+        "no_soal": 78,
+        "query": "Apa perbedaan fokus antara indikator Tingkat Kematangan Tata Kelola Pemdi dan Tingkat Kematangan Manajemen Layanan Digital Pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "Tata Kelola berfokus pada pengaturan dan arah penerapan Pemdi, sedangkan Manajemen Layanan berfokus pada pengelolaan layanan digital."
+    },
+    {
+        "no_soal": 79,
+        "query": "Mengapa indikator Tingkat Kematangan Sumber Daya Manusia Pemdi melibatkan lebih dari satu instansi pembina?",
+        "query_type": "Analisis",
+        "expected_output": "Karena pengembangan SDM Pemdi mencakup berbagai bidang pembinaan yang menjadi kewenangan beberapa instansi."
+    },
+    {
+        "no_soal": 80,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Kolaborasi Pemdi' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Kemenpanrb dan Kemendagri."
+    },
+    {
+        "no_soal": 81,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Tata Kelola Data' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Kementerian PPN/Bappenas."
+    },
+    {
+        "no_soal": 82,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Penyelenggaraan Informasi Geospasial' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Badan Informasi Geospasial (BIG)."
+    },
+    {
+        "no_soal": 83,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Pembangunan Statistik' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Badan Pusat Statistik (BPS)."
+    },
+    {
+        "no_soal": 84,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Pelindungan Data Pribadi' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 85,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Pelaksanaan Audit Keamanan Pemdi dan Teknologi Pemdi' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 86,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Keamanan Pemdi' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 87,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Penerapan Kriptografi untuk Keamanan Data' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 88,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Kapabilitas Penanganan Insiden Siber' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 89,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Aplikasi Pemdi' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 90,
+        "query": "Temukan instansi pembina indikator 'Tingkat Kematangan Infrastruktur Pemdi' dari basis pengetahuan.",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 91,
+        "query": "Instansi telah menerapkan teknologi kriptografi pada sebagian Layanan Digital Pemerintah di 2 siklus data, tetapi belum dilakukan evaluasi. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Baik (Berkembang/Developing)"
+    },
+    {
+        "no_soal": 92,
+        "query": "Teknologi kriptografi telah diterapkan pada seluruh layanan prioritas dan telah dilakukan evaluasi. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Sangat Baik (Melembaga/Embedded)"
+    },
+    {
+        "no_soal": 93,
+        "query": "Penyelenggaraan persandian telah terorganisir dan terkelola dengan baik berdasarkan IKASANDI serta telah menindaklanjuti hasil evaluasi. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Memuaskan (Unggul/Leading)"
+    },
+    {
+        "no_soal": 94,
+        "query": "Hampir seluruh prinsip SDI telah diterapkan, data digunakan lintas instansi, dan evaluasi pemanfaatan data telah dilakukan. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Sangat Baik (Melembaga/Embedded)"
+    },
+    {
+        "no_soal": 95,
+        "query": "Seluruh prinsip SDI telah diterapkan secara berkelanjutan dan telah menjadi budaya kerja instansi. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Memuaskan (Unggul/Leading)"
+    },
+    {
+        "no_soal": 96,
+        "query": "Portal Layanan Digital telah diterapkan pada seluruh layanan prioritas dan seluruh proses bisnis telah terintegrasi dengan Dasbor Presiden. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Sangat Baik (Melembaga/Embedded)"
+    },
+    {
+        "no_soal": 97,
+        "query": "Instansi telah menindaklanjuti hasil reviu integrasi portal dan meningkatkan kualitas integrasi dengan Dasbor Presiden. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Memuaskan (Unggul/Leading)"
+    },
+    {
+        "no_soal": 98,
+        "query": "Interoperabilitas data telah diterapkan secara real-time lintas instansi dan dilakukan reviu berkala. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Sangat Baik (Melembaga/Embedded)"
+    },
+    {
+        "no_soal": 99,
+        "query": "Interoperabilitas data telah komprehensif dan menjadi contoh bagi instansi lain. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Memuaskan (Unggul/Leading)"
+    },
+    {
+        "no_soal": 100,
+        "query": "Instansi belum menerapkan kriptografi dan masih dalam tahap penyiapan sesuai peraturan perundang-undangan. Tingkat kematangannya?",
+        "query_type": "evaluatif",
+        "expected_output": "Kurang (Merintis/Initiate)"
+    }
+]

@@ -1,0 +1,602 @@
+[
+    {
+        "no_soal": 1,
+        "query": "Berapa jumlah indikator dalam Indeks Pemdi menurut PermenPANRB 8/2026?",
+        "query_type": "faktual",
+        "expected_output": "20 (dua puluh) indikator."
+    },
+    {
+        "no_soal": 2,
+        "query": "Berapa jumlah aspek penilaian dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "7 (tujuh) aspek."
+    },
+    {
+        "no_soal": 3,
+        "query": "Aspek apa yang memiliki bobot tertinggi dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Kepuasan Pengguna Layanan Digital Pemerintah"
+    },
+    {
+        "no_soal": 4,
+        "query": "Apa predikat tertinggi dalam hasil Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Memuaskan/Unggul"
+    },
+    {
+        "no_soal": 5,
+        "query": "PermenPANRB 8/2026 mencabut peraturan menteri yang mana?",
+        "query_type": "faktual",
+        "expected_output": "PermenPANRB No. 59 Tahun 2020 tentang Pemantauan dan Evaluasi SPBE."
+    },
+    {
+        "no_soal": 6,
+        "query": "Apa hasil akhir dari Evaluasi Kinerja Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "indeks Pemdi."
+    },
+    {
+        "no_soal": 7,
+        "query": "Tahapan apa saja yang ditempuh dalam pelaksanaan Evaluasi Kinerja Pemdi (Pasal 3)?",
+        "query_type": "ekstraksi",
+        "expected_output": "Penilaian Mandiri, Penilaian Dokumen, dan Penilaian Interviu (Visitasi bila diperlukan)."
+    },
+    {
+        "no_soal": 8,
+        "query": "Siapa yang melaksanakan Penilaian Mandiri dalam Evaluasi Kinerja Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Tim Asesor Internal."
+    },
+    {
+        "no_soal": 9,
+        "query": "Siapa yang melaksanakan Penilaian Dokumen, Interviu, dan Visitasi?",
+        "query_type": "faktual",
+        "expected_output": "Tim Asesor Eksternal."
+    },
+    {
+        "no_soal": 10,
+        "query": "Siapa yang menetapkan Tim Asesor Eksternal?",
+        "query_type": "faktual",
+        "expected_output": "Menteri (PANRB)."
+    },
+    {
+        "no_soal": 11,
+        "query": "Kepada siapa hasil Penilaian Dokumen/Interviu/Visitasi disampaikan oleh Tim Asesor Eksternal?",
+        "query_type": "faktual",
+        "expected_output": "Kepada Deputi, yang kemudian melaporkannya kepada Menteri."
+    },
+    {
+        "no_soal": 12,
+        "query": "Apa definisi Pemerintah Digital (Pemdi) menurut Pasal 1 PermenPANRB 8/2026?",
+        "query_type": "faktual",
+        "expected_output": "Transformasi pemerintahan yang memanfaatkan data dan teknologi digital untuk peningkatan kualitas layanan guna pencapaian visi, misi, dan arah pembangunan nasional."
+    },
+    {
+        "no_soal": 13,
+        "query": "Instrumen apa yang digunakan untuk mengukur Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Kuesioner."
+    },
+    {
+        "no_soal": 14,
+        "query": "Berapa total bobot seluruh aspek Indeks Pemdi bila dijumlahkan?",
+        "query_type": "faktual",
+        "expected_output": "100%."
+    },
+    {
+        "no_soal": 15,
+        "query": "Pada contoh perhitungan di Lampiran, berapa nilai Indeks Pemdi yang dihasilkan?",
+        "query_type": "ekstraksi",
+        "expected_output": "2,8 (predikat Baik/Berkembang)."
+    },
+    {
+        "no_soal": 16,
+        "query": "Pada contoh perhitungan, berapa Indeks Aspek Tata Kelola dan Manajemen bila indikatornya bernilai 2 dan 3?",
+        "query_type": "ekstraksi",
+        "expected_output": "2,5."
+    },
+    {
+        "no_soal": 17,
+        "query": "Tuliskan rumus penghitungan Indeks Pemdi menurut Lampiran.",
+        "query_type": "ekstraksi",
+        "expected_output": "Indeks Pemdi = ? (bobot aspek_i × nilai aspek_i), untuk i=1..7."
+    },
+    {
+        "no_soal": 18,
+        "query": "Tuliskan rumus penghitungan nilai Indeks Aspek.",
+        "query_type": "ekstraksi",
+        "expected_output": "Indeks Aspek_i = ?(bobot indikator_j × nilai indikator_j) / bobot aspek_i."
+    },
+    {
+        "no_soal": 19,
+        "query": "Berapa tahapan proses Evaluasi Kinerja Pemdi secara keseluruhan dan apa saja?",
+        "query_type": "ekstraksi",
+        "expected_output": "3 tahap: persiapan, pelaksanaan, dan pelaporan."
+    },
+    {
+        "no_soal": 20,
+        "query": "Kapan PermenPANRB 8/2026 ditetapkan dan diundangkan?",
+        "query_type": "faktual",
+        "expected_output": "Ditetapkan 1 Juni 2026, diundangkan 5 Juni 2026."
+    },
+    {
+        "no_soal": 21,
+        "query": "Pada Berita Negara nomor berapa PermenPANRB 8/2026 dimuat?",
+        "query_type": "faktual",
+        "expected_output": "Berita Negara RI Tahun 2026 Nomor 364."
+    },
+    {
+        "no_soal": 22,
+        "query": "Siapa Menteri PANRB yang menetapkan PermenPANRB 8/2026?",
+        "query_type": "faktual",
+        "expected_output": "Rini Widyantini."
+    },
+    {
+        "no_soal": 23,
+        "query": "Berapa bobot Aspek Data dan ada berapa indikator di dalamnya?",
+        "query_type": "ekstraksi",
+        "expected_output": "Bobot 15%, terdiri atas 4 indikator (Tata Kelola Data, IG, Statistik, PDP)."
+    },
+    {
+        "no_soal": 24,
+        "query": "Berapa bobot Aspek Keamanan Pemdi dan ada berapa indikatornya?",
+        "query_type": "ekstraksi",
+        "expected_output": "Bobot 15%, terdiri atas 4 indikator."
+    },
+    {
+        "no_soal": 25,
+        "query": "Apa instansi pembina indikator Tata Kelola Data?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian PPN/Bappenas."
+    },
+    {
+        "no_soal": 26,
+        "query": "Apa rentang nilai SDI untuk predikat 'Baik' pada indikator Tata Kelola Data?",
+        "query_type": "ekstraksi",
+        "expected_output": "37,5 < SDI < 62,5."
+    },
+    {
+        "no_soal": 27,
+        "query": "Disebutkan ada berapa Bab dalam batang tubuh PermenPANRB 8/2026?",
+        "query_type": "faktual",
+        "expected_output": "4 Bab: Ketentuan Umum, Pelaksanaan, Ketentuan Peralihan, Ketentuan Penutup."
+    },
+    {
+        "no_soal": 28,
+        "query": "Apa yang terjadi jika instansi belum menyesuaikan terminologi SPBE menjadi Pemdi (ketentuan peralihan)?",
+        "query_type": "ekstraksi",
+        "expected_output": "Terminologi SPBE dianggap sebagai Pemdi."
+    },
+    {
+        "no_soal": 29,
+        "query": "Berapa anggaran sanksi denda bagi instansi yang gagal mencapai predikat Baik menurut PermenPANRB 8/2026?",
+        "query_type": "jebakan (faithfulness)",
+        "expected_output": "Dokumen tidak mengatur sanksi denda; model seharusnya menyatakan informasi tidak tersedia di dokumen."
+    },
+    {
+        "no_soal": 30,
+        "query": "Sebutkan nama-nama kota lokus visitasi yang tercantum dalam PermenPANRB 8/2026.",
+        "query_type": "jebakan (faithfulness)",
+        "expected_output": "Tidak ada daftar kota lokus dalam dokumen; model seharusnya tidak mengarang."
+    },
+    {
+        "no_soal": 31,
+        "query": "Berapa jumlah asesor eksternal minimum per instansi yang ditetapkan PermenPANRB 8/2026?",
+        "query_type": "jebakan (faithfulness)",
+        "expected_output": "Dokumen tidak menyebut angka minimum; model seharusnya menyatakan tidak diatur."
+    },
+    {
+        "no_soal": 32,
+        "query": "Berapa biaya pendaftaran evaluasi yang dibebankan ke instansi menurut dokumen?",
+        "query_type": "jebakan (faithfulness)",
+        "expected_output": "Tidak ada ketentuan biaya dalam dokumen; model seharusnya menolak mengarang."
+    },
+    {
+        "no_soal": 33,
+        "query": "Apa nilai Indeks Pemdi rata-rata nasional aktual yang dilaporkan dalam PermenPANRB 8/2026?",
+        "query_type": "jebakan (out-of-scope)",
+        "expected_output": "Dokumen tidak memuat hasil indeks aktual nasional; model seharusnya menyatakan tidak tersedia."
+    },
+    {
+        "no_soal": 34,
+        "query": "Berapa bobot indikator 'Tingkat Kematangan Tata Kelola Pemdi' dalam Indeks Pemdi menurut Permenpan RB No. 59 Tahun 2020?",
+        "query_type": "jebakan (faithfulness)",
+        "expected_output": "Dokumen Permenpan RB No. 8 Tahun 2026 tidak membahas bobot indikator menurut peraturan lama."
+    },
+    {
+        "no_soal": 35,
+        "query": "Berapa bobot indikator 'Tingkat Kematangan Manajemen Layanan Digital Pemerintah' berdasarkan hasil evaluasi aktual instansi pusat?",
+        "query_type": "jebakan (out-of-scope)",
+        "expected_output": "Dokumen ini adalah pedoman evaluasi, bukan laporan hasil. Tidak ada data bobot berdasarkan hasil evaluasi aktual. Model seharusnya menyatakan informasi tidak tersedia."
+    },
+    {
+        "no_soal": 36,
+        "query": "Berapa bobot indikator 'Tingkat Kematangan Sumber Daya Manusia Pemdi' yang digunakan untuk menentukan predikat Sangat Baik?",
+        "query_type": "jebakan (out-of-scope)",
+        "expected_output": "Dokumen tidak menghubungkan bobot indikator secara langsung dengan penentuan predikat tertentu. Model seharusnya menyatakan informasi tersebut tidak diatur."
+    },
+    {
+        "no_soal": 37,
+        "query": "Berapa bobot indikator 'Tingkat Kematangan Kolaborasi Pemdi' untuk Penilaian Visitasi?",
+        "query_type": "jebakan (faithfulness)",
+        "expected_output": "Dokumen tidak membedakan bobot indikator berdasarkan jenis penilaian (Mandiri/Dokumen/Visitasi). Model seharusnya menyatakan tidak diatur."
+    },
+    {
+        "no_soal": 38,
+        "query": "Berapa bobot indikator 'Tingkat Kematangan Tata Kelola Data' yang berlaku untuk evaluasi tahun 2028?",
+        "query_type": "jebakan (out-of-scope)",
+        "expected_output": "Dokumen hanya mengatur bobot untuk periode saat peraturan ini ditetapkan. Model seharusnya menyatakan informasi untuk tahun 2028 tidak tersedia dalam dokumen."
+    },
+    {
+        "no_soal": 39,
+        "query": "Berapa bobot indikator 'Tingkat Kematangan Penyelenggaraan Informasi Geospasial' dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 40,
+        "query": "Mengapa tingkat kematangan pembangunan statistik sangat krusial untuk mendukung pengambilan keputusan dalam penyelenggaraan Pemerintah Digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Untuk menyediakan data berkualitas yang mendukung perencanaan, pelaksanaan, evaluasi, dan pengendalian pembangunan."
+    },
+    {
+        "no_soal": 41,
+        "query": "Apa risiko terbesar bagi instansi pemerintah jika tingkat kematangan pelindungan data pribadi masih rendah?",
+        "query_type": "Evaluatif",
+        "expected_output": "Risiko kebocoran data pribadi dan menurunnya kepercayaan masyarakat terhadap layanan digital pemerintah."
+    },
+    {
+        "no_soal": 42,
+        "query": "Mengapa pelaksanaan audit keamanan Pemdi dan teknologi Pemdi sangat krusial dalam penyelenggaraan layanan digital pemerintah?",
+        "query_type": "Evaluatif",
+        "expected_output": "Untuk mengidentifikasi kerentanan, meningkatkan keamanan, dan mencegah gangguan layanan digital."
+    },
+    {
+        "no_soal": 43,
+        "query": "Apa risiko terbesar jika tingkat kematangan keamanan Pemdi berada pada kategori rendah?",
+        "query_type": "Evaluatif",
+        "expected_output": "Meningkatnya risiko serangan siber, kebocoran informasi, dan gangguan layanan digital."
+    },
+    {
+        "no_soal": 44,
+        "query": "Mengapa penerapan kriptografi sangat krusial untuk mendukung keamanan data dalam Pemdi?",
+        "query_type": "Evaluatif",
+        "expected_output": "Untuk menjaga kerahasiaan, integritas, dan keaslian data pemerintah."
+    },
+    {
+        "no_soal": 45,
+        "query": "Apa indikator keberhasilan dari kapabilitas penanganan insiden siber yang baik pada instansi pemerintah?",
+        "query_type": "Evaluatif",
+        "expected_output": "Mampu mendeteksi, merespons, dan memulihkan insiden siber secara efektif."
+    },
+    {
+        "no_soal": 46,
+        "query": "Apa indikator keberhasilan dari tingkat kematangan aplikasi Pemdi yang tinggi dalam penyelenggaraan Pemerintah Digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Aplikasi mendukung proses bisnis dan layanan digital secara efektif dan terstruktur."
+    },
+    {
+        "no_soal": 47,
+        "query": "Apa risiko terbesar jika tingkat kematangan infrastruktur Pemdi masih rendah dalam penyelenggaraan Pemerintah Digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Untuk mencegah gangguan ketersediaan, keandalan, dan keberlangsungan infrastruktur yang mendukung penyelenggaraan layanan digital pemerintah."
+    },
+    {
+        "no_soal": 48,
+        "query": "Mengapa keterpaduan proses bisnis Pemdi lintas unit dan instansi sangat krusial dalam penyelenggaraan Pemerintah Digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Untuk meningkatkan koordinasi, mengurangi duplikasi proses, dan mendukung layanan terintegrasi."
+    },
+    {
+        "no_soal": 49,
+        "query": "Apa indikator keberhasilan dari integrasi aplikasi dalam mendukung layanan digital pemerintah?",
+        "query_type": "Evaluatif",
+        "expected_output": "Data dan layanan antar sistem terhubung serta mendukung layanan yang lebih efisien dan terintegrasi."
+    },
+    {
+        "no_soal": 50,
+        "query": "Berapa bobot indikator 'Portal Layanan Digital Pemerintah' dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "4%."
+    },
+    {
+        "no_soal": 51,
+        "query": "Berapa bobot indikator 'Interoperabilitas Data' dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "3%."
+    },
+    {
+        "no_soal": 52,
+        "query": "Berapa bobot indikator 'Fasilitas Dukungan Pengguna Layanan Digital Pemerintah' dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "10%."
+    },
+    {
+        "no_soal": 53,
+        "query": "Berapa bobot indikator 'Tingkat Pengelolaan Kepuasan Pengguna Layanan Digital Pemerintah' dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "15%."
+    },
+    {
+        "no_soal": 54,
+        "query": "Indikator 'Tingkat Kematangan Tata Kelola Pemdi' termasuk dalam aspek apa pada Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Tata Kelola dan Manajemen (Aspek 1)."
+    },
+    {
+        "no_soal": 55,
+        "query": "Indikator 'Tingkat Kematangan Manajemen Layanan Digital Pemerintah' termasuk dalam aspek apa pada Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Tata Kelola dan Manajemen (Aspek 1)."
+    },
+    {
+        "no_soal": 56,
+        "query": "Indikator 'Tingkat Kematangan Sumber Daya Manusia Pemdi' termasuk dalam aspek apa pada Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Penyelenggara (Aspek 2)."
+    },
+    {
+        "no_soal": 57,
+        "query": "Indikator 'Tingkat Kematangan Kolaborasi Pemdi' termasuk dalam aspek apa pada Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Penyelenggara (Aspek 2)."
+    },
+    {
+        "no_soal": 58,
+        "query": "Indikator 'Tingkat Kematangan Tata Kelola Data' termasuk dalam aspek apa pada Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Data (Aspek 3)."
+    },
+    {
+        "no_soal": 59,
+        "query": "Indikator 'Tingkat Kematangan Penyelenggaraan Informasi Geospasial' termasuk dalam aspek apa pada Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "Aspek Data (Aspek 3)."
+    },
+    {
+        "no_soal": 60,
+        "query": "Mengapa aspek Kepuasan Pengguna memiliki bobot terbesar dalam Indeks Pemdi?",
+        "query_type": "analisis",
+        "expected_output": "Karena keberhasilan Pemdi diukur dari hasil, manfaat, dan kepuasan yang dirasakan pengguna layanan."
+    },
+    {
+        "no_soal": 61,
+        "query": "Bagaimana manajemen pengetahuan mendukung peningkatan kualitas layanan digital pemerintah?",
+        "query_type": "analisis",
+        "expected_output": "Dengan mendokumentasikan dan membagikan pengetahuan sehingga layanan dapat terus diperbaiki."
+    },
+    {
+        "no_soal": 62,
+        "query": "Apa dampaknya jika instansi tidak memiliki manajemen keberlangsungan layanan?",
+        "query_type": "analisis",
+        "expected_output": "Layanan berisiko terganggu saat terjadi insiden sehingga kualitas pelayanan menurun."
+    },
+    {
+        "no_soal": 63,
+        "query": "Mengapa manajemen relasi pengguna penting dalam Pemdi?",
+        "query_type": "analisis",
+        "expected_output": "Karena membantu memahami kebutuhan, harapan, masukan, serta keluhan pengguna untuk meningkatkan kualitas layanan."
+    },
+    {
+        "no_soal": 64,
+        "query": "Bagaimana audit keamanan eksternal membantu meningkatkan Keamanan Pemdi?",
+        "query_type": "analisis",
+        "expected_output": "Audit eksternal memberikan penilaian objektif untuk menemukan dan memperbaiki kelemahan keamanan."
+    },
+    {
+        "no_soal": 65,
+        "query": "Mengapa audit keamanan internal tetap diperlukan meskipun ada audit eksternal?",
+        "query_type": "analisis",
+        "expected_output": "Karena audit internal memastikan pengawasan dan perbaikan keamanan dilakukan secara berkelanjutan."
+    },
+    {
+        "no_soal": 66,
+        "query": "Bagaimana pelindungan data at-rest, in-use, dan in-transit mendukung Pemdi?",
+        "query_type": "analisis",
+        "expected_output": "Dengan menjaga keamanan data saat disimpan, diproses, dan dikirim."
+    },
+    {
+        "no_soal": 67,
+        "query": "Mengapa survei kepuasan masyarakat saja belum cukup untuk menilai kualitas layanan digital?",
+        "query_type": "analisis",
+        "expected_output": "Karena perlu didukung indikator lain seperti keamanan, keandalan, dan efektivitas layanan."
+    },
+    {
+        "no_soal": 68,
+        "query": "Bagaimana metode mystery shopper melengkapi survei kepuasan pengguna?",
+        "query_type": "analisis",
+        "expected_output": "Dengan menilai pengalaman layanan secara langsung dan lebih objektif."
+    },
+    {
+        "no_soal": 69,
+        "query": "Mengapa portal layanan digital terintegrasi lebih efektif daripada portal terpisah?",
+        "query_type": "analisis",
+        "expected_output": "Karena memudahkan akses layanan dan mengurangi fragmentasi antarinstansi."
+    },
+    {
+        "no_soal": 70,
+        "query": "Mengapa indikator 'Portal Layanan Digital Pemerintah' termasuk dalam Aspek 6?",
+        "query_type": "analisis",
+        "expected_output": "Karena mengukur kemampuan instansi menyediakan portal yang mengintegrasikan layanan digital secara terpadu."
+    },
+    {
+        "no_soal": 71,
+        "query": "Mengapa indikator 'Interoperabilitas Data' termasuk dalam Aspek 6?",
+        "query_type": "analisis",
+        "expected_output": "Karena menilai kemampuan mewujudkan keterpaduan data antar sistem untuk mendukung layanan yang terintegrasi."
+    },
+    {
+        "no_soal": 72,
+        "query": "Mengapa indikator 'Fasilitas Dukungan Pengguna Layanan Digital Pemerintah' termasuk dalam Aspek 7?",
+        "query_type": "analisis",
+        "expected_output": "Karena mengukur ketersediaan fasilitas dukungan yang memengaruhi kepuasan pengguna layanan digital."
+    },
+    {
+        "no_soal": 73,
+        "query": "Mengapa indikator 'Tingkat Pengelolaan Kepuasan Pengguna Layanan Digital Pemerintah' termasuk dalam Aspek 7?",
+        "query_type": "analisis",
+        "expected_output": "Karena secara langsung mengukur upaya pengelolaan dan peningkatan kepuasan pengguna."
+    },
+    {
+        "no_soal": 74,
+        "query": "Mengapa KemenpanRB, Kemkomdigi, Bappenas, dan BSSN menjadi pembina indikator 'Tingkat Kematangan Tata Kelola Pemdi'?",
+        "query_type": "analisis",
+        "expected_output": "Karena indikator ini bersifat strategis dan lintas sektor yang memerlukan pembinaan dari beberapa instansi terkait."
+    },
+    {
+        "no_soal": 75,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Manajemen Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "Kemenpanrb, Bappenas, BSSN, BRIN, dan BPKP."
+    },
+    {
+        "no_soal": 76,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Sumber Daya Manusia Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "Kemenpanrb, Kemkomdigi, Kemendagri, BKN, dan LAN."
+    },
+    {
+        "no_soal": 77,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Kolaborasi Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "Kemenpanrb dan Kemendagri."
+    },
+    {
+        "no_soal": 78,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Tata Kelola Data'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian PPN/Bappenas."
+    },
+    {
+        "no_soal": 79,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Penyelenggaraan Informasi Geospasial'?",
+        "query_type": "faktual",
+        "expected_output": "Badan Informasi Geospasial (BIG)."
+    },
+    {
+        "no_soal": 80,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Pembangunan Statistik'?",
+        "query_type": "faktual",
+        "expected_output": "Badan Pusat Statistik (BPS)."
+    },
+    {
+        "no_soal": 81,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Pelindungan Data Pribadi'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 82,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Pelaksanaan Audit Keamanan Pemdi dan Teknologi Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 83,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Keamanan Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 84,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Penerapan Kriptografi untuk Keamanan Data'?",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 85,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Kapabilitas Penanganan Insiden Siber'?",
+        "query_type": "faktual",
+        "expected_output": "Badan Siber dan Sandi Negara (BSSN)."
+    },
+    {
+        "no_soal": 86,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Aplikasi Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 87,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Kematangan Infrastruktur Pemdi'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 88,
+        "query": "Siapa instansi pembina untuk indikator 'Keterpaduan Proses Bisnis Pemdi Lintas Unit dan Instansi'?",
+        "query_type": "faktual",
+        "expected_output": "Kemenpanrb, Bappenas, Kemendagri, dan ANRI."
+    },
+    {
+        "no_soal": 89,
+        "query": "Siapa instansi pembina untuk indikator 'Integrasi Aplikasi'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital."
+    },
+    {
+        "no_soal": 90,
+        "query": "Siapa instansi pembina untuk indikator 'Portal Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian Komunikasi dan Digital dan BSSN."
+    },
+    {
+        "no_soal": 91,
+        "query": "Siapa instansi pembina untuk indikator 'Interoperabilitas Data'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian PPN/Bappenas."
+    },
+    {
+        "no_soal": 92,
+        "query": "Siapa instansi pembina untuk indikator 'Fasilitas Dukungan Pengguna Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian PANRB."
+    },
+    {
+        "no_soal": 93,
+        "query": "Siapa instansi pembina untuk indikator 'Tingkat Pengelolaan Kepuasan Pengguna Layanan Digital Pemerintah'?",
+        "query_type": "faktual",
+        "expected_output": "Kementerian PANRB."
+    },
+    {
+        "no_soal": 94,
+        "query": "Berapa bobot Aspek Tata Kelola dan Manajemen dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "10%."
+    },
+    {
+        "no_soal": 95,
+        "query": "Berapa bobot Aspek Penyelenggara dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "10%."
+    },
+    {
+        "no_soal": 96,
+        "query": "Berapa bobot Aspek Data dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "15%."
+    },
+    {
+        "no_soal": 97,
+        "query": "Berapa bobot Aspek Keamanan Pemdi dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "15%."
+    },
+    {
+        "no_soal": 98,
+        "query": "Berapa bobot Aspek Teknologi Pemdi dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "10%."
+    },
+    {
+        "no_soal": 99,
+        "query": "Berapa bobot Aspek Keterpaduan Layanan Digital Pemerintah dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "15%."
+    },
+    {
+        "no_soal": 100,
+        "query": "Berapa bobot Aspek Kepuasan Pengguna Layanan Digital Pemerintah dalam Indeks Pemdi?",
+        "query_type": "faktual",
+        "expected_output": "25%."
+    }
+]
